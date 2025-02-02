@@ -1,0 +1,73 @@
+.bottle_conatainer {
+  display: flex;
+}
+.first_conatainer {
+  background-color: antiquewhite;
+  width: 50%;
+  height: 110vh;
+}
+.second_conatainser {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20292c;
+  width: 50%;
+  height: 110vh;
+}
+.icon_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.hand_bottle {
+  width: 100%;
+  height: 100%;
+}
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+}
+.category-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.category-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 8px;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f1419;
+}
+.category-text {
+  width: 200px;
+  font-weight: 600;
+}
+.bottle_image {
+  position: absolute;
+  top: 165%;
+  left: 61%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+}
+.bottle-slect{
+    object-fit: cover;
+    width: 150px;
+    height: auto;
+}
