@@ -66,8 +66,8 @@
   width: 500px;
   height: 500px;
 }
-.bottle-slect{
-    object-fit: cover;
-    width: 150px;
-    height: auto;
+.bottle-slect {
+  object-fit: cover;
+  width: 150px;
+  height: auto;
 }
